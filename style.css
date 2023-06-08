@@ -1,0 +1,301 @@
+/* Necessary terms - default conditions */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styling */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hero section styling */
+
+.hero-container {
+  padding: 2rem;
+  background: #9300da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 50%;
+}
+
+.hero-wrapper h1 {
+  color: white;
+  font-size: 60px;
+}
+.hero-wrapper p {
+  color: white;
+  font-size: 30px;
+}
+
+.hero-wrapper div button {
+  color: #9300da;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Amplify section styling */
+
+.amplify-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.amplify-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+}
+
+.amplify-wrapper h1 {
+  font-size: 60px;
+}
+
+.amplify-wrapper p {
+  font-size: 30px;
+}
+
+.amplify-wrapper .amplify-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto 0;
+  width: 100%;
+  gap: 2rem;
+}
+
+.amplify-wrapper div button {
+  color: white;
+  background-color: black;
+  width: 50%;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Anniversary Section styling */
+
+.anniversary-container {
+  padding: 2rem;
+  background: #9300da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anniversary-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 50%;
+}
+
+.anniversary-wrapper h1 {
+  color: white;
+  font-size: 60px;
+}
+.anniversary-wrapper p {
+  color: white;
+  font-size: 30px;
+}
+
+.anniversary-wrapper div button {
+  color: #9300da;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Sneak Section styling */
+
+.sneak-container {
+  padding: 2rem;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sneak-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 50%;
+}
+
+.sneak-wrapper h1 {
+  /* color: white; */
+  font-size: 60px;
+}
+.sneak-wrapper p {
+  /* color: white; */
+  font-size: 30px;
+}
+
+.sneak-wrapper div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .sneak-wrapper div {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 400px) {
+  .sneak-wrapper div {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+/* Memories section styling */
+
+.memories-container {
+  padding: 2rem;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.memories-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 50%;
+}
+
+.memories-wrapper h1 {
+  /* color: white; */
+  font-size: 60px;
+}
+.memories-wrapper p {
+  /* color: white; */
+  font-size: 30px;
+}
+
+.memories-wrapper div button {
+  color: white;
+  background-color: black;
+  width: 50%;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Start Section styling */
+
+.start-container {
+  padding: 2rem;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 50%;
+}
+
+.start-wrapper h1 {
+  color: white;
+  font-size: 60px;
+}
+.start-wrapper p {
+  color: white;
+  font-size: 30px;
+}
+
+.start-wrapper div button {
+  color: white;
+  background-color: #9300da;
+  width: 50%;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer section styling */
+
+.footer-container {
+  padding: 2rem;
+  background: #9300da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* width: 50%; */
+}
+
+.footer-wrapper h1 {
+  color: white;
+  font-size: 40px;
+}
+.footer-wrapper p {
+  color: white;
+  font-size: 20px;
+}
+
+.footer-wrapper div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-wrapper div img {
+  width: 2rem;
+}
